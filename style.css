@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Secular+One&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+/*................... section-container ..................*/
+ .container{
+    background-color: white;
+ }
+
+/*--------------- .top-players styles------------------------*/
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
